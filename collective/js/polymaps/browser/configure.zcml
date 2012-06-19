@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.js.polymaps">
+
+  <!-- Resource directory for stylesheets -->
+  <browser:resourceDirectory
+      name="collective.js.polymaps.stylesheets"
+      directory="stylesheets"
+      />
+
+  <!-- Resource directory for js -->
+  <browser:resourceDirectory
+      name="collective.js.polymaps.javascript"
+      directory="javascript"
+      />
+
+
+
+</configure>
